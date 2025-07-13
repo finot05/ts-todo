@@ -1,0 +1,97 @@
+body {
+    background-color: #f2f3f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 2rem;
+}
+
+/* Title */
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1.rem;
+}
+
+/* Input */
+div {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 1.6rem;
+}
+
+/* Input styling */
+#taskInput {
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 260px;
+    transition: border 0.3s ease;
+}
+
+/* Add task button */
+#addTaskBtn {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+#addTaskBtn:hover {
+    background-color: #5848e5;
+}
+
+/* Task list */
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 380px;
+}
+
+/* Task item */
+#taskList li {
+    background-color: #fff;
+    padding: 0.4rem 0.3rem;
+    margin-bottom: 0.6rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease;
+}
+#taskList li:hover {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Task text */
+.task-text {
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #333;
+    word-break: break-word;
+}
+.task-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.task-buttons button {
+    background: none;
+    border: none;
+    padding: 0.2rem;
+    font-size: 1.1rem;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.task-buttons button:hover {
+    color: #000;
+}

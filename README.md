@@ -10,6 +10,9 @@ A simple browser-based Todo List App written in **TypeScript**, styled with CSS,
 <img src="https://github.com/user-attachments/assets/97f49a4e-f0bf-4dbc-a901-412e7ad74b91" width="500" />
 <p>The task is being edited to change the name.</p>
 
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/8d6fb83b-dd70-48f0-bb36-32786f2110ce" />
+<p>The “Attend a meeting” task has been deleted</p>
+
 ## Features
 - Add tasks
 - Edit tasks (using a pen icon)
@@ -22,6 +25,8 @@ A simple browser-based Todo List App written in **TypeScript**, styled with CSS,
 - Font Awesome (for icons)
 
 ## How to Run
-1. Compile the TypeScript:
+1. Clone or download the repo
+3. Run `npm install`
+4. Compile the TypeScript:
    ```bash
-   npx tsc index.ts
+   npx tsc todo.ts
